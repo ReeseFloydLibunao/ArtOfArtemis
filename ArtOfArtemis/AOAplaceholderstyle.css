@@ -1,0 +1,17 @@
+body {
+			background-image: url("http://wallup.net/wp-content/uploads/2016/01/95677-nature-trees-forest-road.jpg");
+			background-position: center center;
+			background-repeat:no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		#enddiv{
+			margin-top:250px;
+			margin-left:400px;
+			margin-right:600px;
+			display:flex;
+			background-color:white;
+		}
+		#apologies{
+			margin-top:100px
+		}

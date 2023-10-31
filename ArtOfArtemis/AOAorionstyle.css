@@ -1,0 +1,236 @@
+			* {
+				box-sizing: border-box;
+			}
+			body {	
+				background-image: url("http://wallup.net/wp-content/uploads/2016/01/95677-nature-trees-forest-road.jpg");
+				background-position: center center;
+				background-repeat:no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				margin-top:0px;
+				margin-right:0px;
+				margin-left:0px;
+			}
+			#logo {
+				float: left;
+				margin-left: 30px;
+				margin-right: 0px;
+				background-color:white;
+				
+			}
+			#heading {
+				background-color: #597D35;
+				position: center-left;
+				text-align: center;
+				border: 3px solid black;
+				padding: 20px;
+				width: 600px;
+				height: 85px;
+				margin-left: auto;
+				margin-right: auto;	
+			}
+			#headerr{
+				height:55px;
+				margin-left: 0px;
+				margin-right: 0px;
+				margin-bottom: 20px;
+				margin-top:0px;
+				padding: 5px;
+				border-bottom: 2px solid black;
+				display:flex;
+				background-color:#326500;
+			}
+			#header-name {
+				background-color: white;
+				margin-left: 0px;
+				margin-right: -5px;
+				margin-bottom: 0px;
+				margin-top:0px;
+				padding: 7px;
+				padding-top:12px;
+				height:40px;
+			}
+			
+			#deerimg{
+				margin-left:10px;
+				margin-right:950px;
+			}
+			#homelink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#residencylink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#worshiplink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#orionlink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#minorroleslink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#searchbar{
+				margin-left:15px;
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				
+			}
+			#magnifyingglass{
+				background-color:white;
+			}
+			#everything{
+				background-color:#466D1E ;
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				padding:10px;
+				padding-bottom:2.5px;
+				display:flex;
+				border-style:solid solid none solid
+
+			}
+			#intro{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				letter-spacing: 2px;
+			}
+			#secondline{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			}
+			#secondp{
+				font-size:18px;
+				letter-spacing:2px;
+			}
+			#thirdline{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:30px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid solid solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			#2ndimage{
+				width:300px;
+			}
+			#thirdp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				margin-top:0px;
+				letter-spacing:2px;
+			}
+			#bottompart{
+				display:flex;
+			}
+			#contactinformation{
+				height:25px;
+				margin-left:75px;
+				margin-right:0px;
+				margin-top:0px;
+				width:300px;
+				color:blue;
+			}
+			#bottomhomelink{
+				margin-left:1050px;
+				margin-right 150px;
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomresidencylink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomworshiplink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomorionlink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomminorroleslink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				text-decoration: none;
+			}
+			a{
+				text-decoration:none;
+			}	

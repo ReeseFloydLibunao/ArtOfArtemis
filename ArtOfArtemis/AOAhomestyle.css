@@ -1,0 +1,380 @@
+* {
+				box-sizing: border-box;
+			}
+			body {	
+				background-image: url("http://wallup.net/wp-content/uploads/2016/01/95677-nature-trees-forest-road.jpg");
+				background-position: center center;
+				background-repeat:no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				margin-top:0px;
+				margin-right:0px;
+				margin-left:0px;
+			}
+			#logo {
+				float: left;
+				margin-left: 30px;
+				margin-right: 0px;
+				background-color:white;
+				
+			}
+			#contentdiv {
+				margin-right:auto;
+				margin-left: 100px;
+				margin-bottom:0px;
+				height:600px;
+				display: flex;
+			}
+			#Oriondiv {
+				display: flex;
+				
+			}
+			#Worshipdiv {
+				display: flex;
+			}
+			#MinorRolesdiv {
+				display: flex;
+				margin-top:-25px;
+			}
+			#headerr{
+				height:55px;
+				margin-left: 0px;
+				margin-right: 0px;
+				margin-bottom: 20px;
+				margin-top:0px;
+				padding: 5px;
+				border-bottom: 2px solid black;
+				display:flex;
+				background-color:#326500;
+			}
+			
+			#mid-image{
+				float:center;
+				margin-top: 16px;
+				margin-left:30px;
+				margin-right:20px;
+				border:3px solid black;
+			}
+			#header-name {
+				background-color: white;
+				margin-left: 0px;
+				margin-right: -5px;
+				margin-bottom: 0px;
+				margin-top:0px;
+				padding: 7px;
+				padding-top:12px;
+				height:40px;
+			}
+			#deerimg{
+				margin-left:10px;
+				margin-right:950px;
+			}
+			#homelink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#residencylink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#worshiplink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#orionlink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#minorroleslink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+			#searchbar{
+				margin-left:15px;
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				
+			}
+			#magnifyingglass{
+				background-color:white;
+			}
+			#heading {
+				background-color: #597D35;
+				position: center-left;
+				text-align: center;
+				border: 3px solid black;
+				padding: 20px;
+				width: 1100px;
+				height: 85px;
+				margin-left: auto;
+				margin-right: auto;	
+					
+				
+			}
+			#content1 {
+				float: left;
+				position:left-side;
+				text-align: justify;
+				border: 3px solid black;
+				padding: 20px;
+				width: 500px;
+				height: 550px;
+				margin-top: 1px
+				margin-left: auto;
+				margin-right: auto;
+				background-color:#013220; 	
+				
+			}
+			#content1img {
+				margin-left: 75px;
+				margin-right: auto;
+			}
+			#residencybutton{
+				height:50px;
+				padding-left:20px;
+				padding-right:20px;
+				border:3px solid black;
+				margin-right:auto;
+				margin-left:125px;
+				margin-bottom:50px;
+				margin-top:60px;
+				background-color:white;
+				
+			}
+			
+			#content2a {
+				text-align: justify;
+				border: 3px solid black;
+				border-style: solid none solid solid;
+				padding: 20px;
+				width: 500px;
+				height: 250px;
+				margin-left: 10px;
+				margin-right: 0px;
+				margin-bottom: 32px;
+				background-color:#3b8132;
+			}
+			#inneroriondiv{
+				height:265px;	
+			}
+			#innerworshipdiv{
+				height:265px;
+			}
+			#innerminorrolesdiv{
+				height: 125px;
+				padding-right:10px;
+				padding-left:5px;
+				padding-bottom:0.5x;
+				padding-top:6.5px;
+				margin-bottom:0px;
+				margin-top:16px;
+				background-color:#028910;
+				border: 3px solid black;
+				border-style: solid solid solid none;
+			}
+			#innermostoriondiv{
+				padding-right:10px;
+				padding-left:5px;
+				padding-bottom:6.5px;
+				padding-top:6.5px;
+				margin-bottom:5px;
+				margin-top:-5px;
+				background-color:#3b8132;
+				border: 3px solid black;
+				border-style: none solid solid none;
+			}
+			#innermostworshipdiv{
+				padding-right:10px;
+				padding-left:5px;
+				padding-bottom:6.5px;
+				padding-top:6.5px;
+				margin-bottom:5px;
+				margin-top:-5px;
+				background-color:#3A5311;
+				border: 3px solid black;
+				border-style: none solid solid none;
+			}
+			#orionimg{
+				margin-top:16px;
+				margin-left:0px;
+				padding-left:10px;
+				padding-right:10px;
+				padding-top: 10px;
+				border:3px solid black;
+				border-style: solid solid none none;
+				background-color:#3b8132;
+				
+			}
+			#worshipimg{
+				margin-top:16px;
+				margin-left:0px;
+				padding-left:10px;
+				padding-right:10px;
+				padding-top: 10px;
+				border:3px solid black;
+				border-style: solid solid none none;
+				background-color:#3A5311;
+			}
+			
+			#orionbutton{
+				padding-left:45px;
+				padding-right:35px;
+				padding-bottom:7.5px;
+				padding-top:7.5px;
+				border:3px solid black;
+				margin-right:10px;
+				margin-left:10px;
+				margin-bottom:15.5px;
+				margin-top:15.5px;
+				background-color:white;
+				
+			}
+			#worshipbutton{
+				padding-left:45px;
+				padding-right:35px;
+				padding-bottom:7.5px;
+				padding-top:7.5px;
+				border:3px solid black;
+				margin-right:10px;
+				margin-left:10px;
+				margin-bottom:15.5px;
+				margin-top:15.5px;
+				background-color:white;
+			}
+			#minorrolesbutton{
+				padding-left:45px;
+				padding-right:35px;
+				padding-bottom:7.5px;
+				padding-top:7.5px;
+				border:3px solid black;
+				margin-right:10px;
+				margin-left:10px;
+				margin-bottom:5.5pxpx;
+				margin-top:28.5px;
+				background-color:white;
+			}
+			#content2b {
+				float: right;
+				text-align: justify;
+				border: 3px solid black;
+				border-style: solid none solid solid;
+				padding: 20px;
+				width: 500px;
+				height: 250px;
+				margin-left: 10px;
+				margin-right: 0px;
+				background-color:#3A5311;
+			}
+			#content3 {
+				border: 3px solid black;
+				border-style: solid none solid solid;
+				width: 1200px;
+				height: 125px;
+				background-color:#028910;
+				margin-left:150px;
+				margin-right:0px;
+				padding-left:50px;
+			}
+			#bottompart{
+				display:flex;
+			}
+			#contactinformation{
+				height:25px;
+				margin-left:75px;
+				margin-right:0px;
+				margin-top:0px;
+				width:300px;
+				color:blue;
+			}
+			#bottomhomelink{
+				margin-left:1050px;
+				margin-right 150px;
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomresidencylink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomworshiplink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomorionlink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomminorroleslink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				text-decoration: none;
+			}
+			span { 
+				font-weight: 700;
+				margin-right: 225px;
+				margin-left: 180px;
+			}
+			#span2 { 
+				font-weight: 700;
+				margin-right: 355px;
+				margin-left: 50px;
+			}
+			#span3 {
+				font-weight: 700;
+				margin-right: 1250px;
+				margin-left: 50px;
+			}
+			a{
+				text-decoration:none;
+			}	
