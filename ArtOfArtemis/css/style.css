@@ -1,0 +1,1034 @@
+* {
+				box-sizing: border-box;
+			}
+			body {	
+				background-image: url("http://wallup.net/wp-content/uploads/2016/01/95677-nature-trees-forest-road.jpg");
+				background-position: center center;
+				background-repeat:no-repeat;
+				background-size: cover;
+				background-attachment: fixed;
+				margin-top:0px;
+				margin-right:0px;
+				margin-left:0px;
+			}
+			#NavigationBar{
+				height:55px;
+				margin-left: 0px;
+				margin-right: 0px;
+				margin-bottom: 20px;
+				margin-top:0px;
+				padding: 5px;
+				border-bottom: 2px solid black;
+				display:flex;
+				background-color:#326500;
+			}
+			#logo {
+				float: left;
+				margin-left: 15px;
+				margin-right: 0px;
+				background-color:white;
+				
+			}
+			#header-name {
+				background-color: white;
+				margin-left: 0px;
+				margin-right: -5px;
+				margin-bottom: 0px;
+				margin-top:0px;
+				padding: 7px;
+				padding-top:12px;
+				height:40px;
+			}
+			#deerimg{
+				margin-left:10px;
+				margin-right:825px;
+			}
+			#homelink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+				#homelink:link{
+					text-decoration: none;
+				}
+				#homelink:visited{
+					color:gray;
+				}
+				#homelink:hover{
+					background-color:#326500;
+					color: black;
+				}
+				#homelink:active{
+					background-color:#597D35;
+				}
+			#residencylink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+				color:black;
+			}
+				#residencylink:link{
+					text-decoration: none;
+				}
+				#residencylink:visited{
+					color:gray;
+				}
+				#residencylink:hover{
+					background-color:#326500;
+					color:black;
+				}
+				#residencylink:active{
+					background-color:#597D35;
+				}
+			#worshiplink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+				#worshiplink:link{
+					text-decoration: none;
+				}
+				#worshiplink:visited{
+					color:gray;
+				}
+				#worshiplink:hover{
+					background-color:#326500;
+					color: black;
+				}
+				#worshiplink:active{
+					background-color:#597D35;
+				}
+			#orionlink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+				#orionlink:link{
+					text-decoration: none;
+				}
+				#orionlink:visited{
+					color:gray;
+				}
+				#orionlink:hover{
+					background-color:#326500;
+					color: black;
+				}
+				#orionlink:active{
+					background-color:#597D35;
+				}
+			#minorroleslink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+				#minorroleslink:link{
+					text-decoration: none;
+				}
+				#minorroleslink:visited{
+					color:gray;
+				}
+				#minorroleslink:hover{
+					background-color:#326500;
+					color: black;
+				}
+				#minorroleslink:active{
+					background-color:#597D35;
+				}
+			#sourceslink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				text-decoration: none;
+			}
+				#sourceslink:link{
+					text-decoration: none;
+				}
+				#sourceslink:visited{
+					color:gray;
+				}
+				#sourceslink:hover{
+					background-color:#326500;
+					color: black;
+				}
+				#sourceslink:active{
+					background-color:#597D35;
+				}
+			#searchbar{
+				margin-left:15px;
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				background-color: white;
+				
+			}
+			#magnifyingglass{
+				background-color:white;
+			}
+			#bottomsourceslink{
+				margin-top:10px;
+			}
+			/*--Navigation Bar Stuff ends here --
+			  --HOME stuff starts here --*/
+			#HOMEHeading {
+				background-color: #597D35;
+				position: center-left;
+				text-align: center;
+				border: 3px solid black;
+				padding: 20px;
+				width: 1100px;
+				height: 85px;
+				margin-left: auto;
+				margin-right: auto;	
+			}
+			#HOMEUpperSection {
+				margin-right:auto;
+				margin-left: 100px;
+				margin-bottom:0px;
+				height:600px;
+				display: flex;
+			}
+			#HOMEResidencyArticle{
+				border: 3px solid black;
+				padding: 20px;
+				width: 500px;
+				height: 550px;
+				margin-top: 15px;
+				margin-left: 0px;
+				margin-right: 0px;
+				background-color:#013220; 	
+			}
+				#HOMEResidencyArticle:hover{
+					transform:scale(1.07,1.07);
+					transition:transform 1s;
+				}
+			#HOMEOrionArticle {
+				display: flex;
+			}
+				#HOMEOrionArticle:hover{
+					transform:scale(1.07,1.07);
+					transition:transform 1s;
+				}
+			#HOMEWorshipArticle {
+				display: flex;
+			}
+				#HOMEWorshipArticle:hover{
+					transform:scale(1.07,1.07);
+					transition:transform 1s;
+				}
+			#HOMEMinorRolesArticle {
+				display: flex;
+				margin-top:-25px;
+				margin-right:100px;
+			}
+				#HOMEMinorRolesArticle:hover{
+					transform:scale(1.07,1.07);
+					transition:transform 1s;
+				}
+			
+			#HOMEResidencyImg {
+				margin-left: 75px;
+				margin-right: 0px;
+			}
+			#HOMEResidencyContent{
+				height:150px;
+				text-align: justify;
+				padding: 0px; 
+				margin: 0px;
+			}
+			#HOMEResidencyButton{
+				padding-left:45px;
+				padding-right:35px;
+				padding-bottom:7.5px;
+				padding-top:7.5px;
+				border:3px solid black;
+				margin-left:120px;
+				background-color:white;
+			}
+				#HOMEResidencyButton:link{
+					text-decoration:none;
+				}
+				#HOMEResidencyButton:visited{
+					text-decoration:none;
+				}
+				#HOMEResidencyButton:hover{
+					transform:scale(1.15,1.1);
+					transition:transform 1s;
+				}
+				#HOMEResidencyButton:active{
+					transform:rotate(-15deg);
+					transition:transform 1s;
+					transition-duration: 0.3s;
+				}
+			#mid-image{
+				float:center;
+				margin-top: 16px;
+				margin-left:30px;
+				margin-right:20px;
+				border:3px solid black;
+			}
+				#mid-image:hover{
+					transform:scale(1.07,1.07);
+					transition:transform 1s;
+				}
+			#HOMEOrionContent {
+				text-align: justify;
+				border: 3px solid black;
+				border-style: solid none solid solid;
+				padding: 20px;
+				width: 500px;
+				height: 250px;
+				margin-left: 10px;
+				margin-right: 0px;
+				margin-bottom: 32px;
+				background-color:#3b8132;
+			}
+			#HOMEInnerOrionSection{
+				height:265px;	
+			}
+			#HOMEInnerWorshipSection{
+				height:265px;
+			}
+			#HOMEInnerMinorRolesSection{
+				height: 125px;
+				padding-right:10px;
+				padding-left:5px;
+				padding-bottom:0.5x;
+				padding-top:6.5px;
+				margin-bottom:0px;
+				margin-top:16px;
+				background-color:#028910;
+				border: 3px solid black;
+				border-style: solid solid solid none;
+			}
+			#HOMEInnerMostOrionSection{
+				padding-right:10px;
+				padding-left:5px;
+				padding-bottom:6.5px;
+				padding-top:6.5px;
+				margin-bottom:5px;
+				margin-top:-5px;
+				background-color:#3b8132;
+				border: 3px solid black;
+				border-style: none solid solid none;
+			}
+			#HOMEInnerMostWorshipSection{
+				padding-right:10px;
+				padding-left:5px;
+				padding-bottom:6.5px;
+				padding-top:6.5px;
+				margin-bottom:5px;
+				margin-top:-5px;
+				background-color:#3A5311;
+				border: 3px solid black;
+				border-style: none solid solid none;
+			}
+			#HOMEOrionImg{
+				margin-top:16px;
+				margin-left:0px;
+				padding-left:10px;
+				padding-right:10px;
+				padding-top: 10px;
+				border:3px solid black;
+				border-style: solid solid none none;
+				background-color:#3b8132;
+				
+			}
+			#HOMEWorshipImg{
+				margin-top:16px;
+				margin-left:0px;
+				padding-left:10px;
+				padding-right:10px;
+				padding-top: 10px;
+				border:3px solid black;
+				border-style: solid solid none none;
+				background-color:#3A5311;
+			}
+			
+			#HOMEOrionButton{
+				padding-left:45px;
+				padding-right:35px;
+				padding-bottom:7.5px;
+				padding-top:7.5px;
+				border:3px solid black;
+				margin-right:10px;
+				margin-left:10px;
+				margin-bottom:15.5px;
+				margin-top:15.5px;
+				background-color:white;
+			}
+				#HOMEOrionButton:link{
+					text-decoration:none;
+				}
+				#HOMEOrionButton:visited{
+					text-decoration:none;
+				}
+				#HOMEOrionButton:hover{
+					transform:scale(1.15,1.1);
+					transition:transform 1s;
+				}
+				#HOMEOrionButton:active{
+					transform:rotate(-15deg);
+					transition:transform 1s;
+					transition-duration: 0.3s;
+				}
+			#HOMEWorshipButton{
+				padding-left:45px;
+				padding-right:35px;
+				padding-bottom:7.5px;
+				padding-top:7.5px;
+				border:3px solid black;
+				margin-right:10px;
+				margin-left:10px;
+				margin-bottom:15.5px;
+				margin-top:15.5px;
+				background-color:white;
+			}
+				#HOMEWorshipButton:link{
+					text-decoration:none;
+				}
+				#HOMEWorshipButton:visited{
+					text-decoration:none;
+				}
+				#HOMEWorshipButton:hover{
+					transform:scale(1.15,1.1);
+					transition:transform 1s;
+				}
+				#HOMEWorshipButton:active{
+					transform:rotate(-15deg);
+					transition:transform 1s;
+					transition-duration: 0.3s;
+				}
+			#HOMEMinorRolesButton{
+				padding-left:45px;
+				padding-right:35px;
+				padding-bottom:7.5px;
+				padding-top:7.5px;
+				border:3px solid black;
+				margin-right:10px;
+				margin-left:10px;
+				margin-bottom:5.5pxpx;
+				margin-top:28.5px;
+				background-color:white;
+			}
+				#HOMEMinorRolesButton:link{
+					text-decoration:none;
+				}
+				#HOMEMinorRolesButton:visited{
+					text-decoration:none;
+				}
+				#HOMEMinorRolesButton:hover{
+					transform:scale(1.15,1.1);
+					transition:transform 1s;
+				}
+				#HOMEMinorRolesButton:active{
+					transform:rotate(-15deg);
+					transition:transform 1s;
+						transition-duration: 0.3s;
+				}
+			#HOMEWorshipContent {
+				float: right;
+				text-align: justify;
+				border: 3px solid black;
+				border-style: solid none solid solid;
+				padding: 20px;
+				width: 500px;
+				height: 250px;
+				margin-left: 10px;
+				margin-right: 0px;
+				background-color:#3A5311;
+			}
+			#HOMEMinorRolesContent {
+				border: 3px solid black;
+				border-style: solid none solid solid;
+				width: 1200px;
+				height: 125px;
+				background-color:#028910;
+				margin-left:150px;
+				margin-right:0px;
+				padding-left:50px;
+			}
+			#bottompart{
+				display:flex;
+			}
+			#contactinformation{
+				height:25px;
+				margin-left:75px;
+				margin-right:0px;
+				margin-top:0px;
+				width:300px;
+				color:blue;
+			}
+			#bottomhomelink{
+				margin-left:1050px;
+				margin-right 150px;
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomresidencylink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomworshiplink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomorionlink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				text-decoration: none;
+			}
+			#bottomminorroleslink{
+				margin-top:0px;
+				margin-bottom:3px;
+				padding-bottom:5px;
+				padding-top:10px;
+				padding-left:15px;
+				padding-right:15px;
+				text-decoration: none;
+			}
+			#HOMEspan1 { 
+				font-weight: 700;
+				margin-right: 225px;
+				margin-left: 180px;
+			}
+			#HOMEspan2 { 
+				font-weight: 700;
+				margin-right: 355px;
+				margin-left: 50px;
+			}
+			#HOMEspan3 {
+				font-weight: 700;
+				margin-right: 1250px;
+				margin-left: 50px;
+			}
+			a{
+				text-decoration:none;
+			}	
+			
+			/*--HOME stuff ends here--
+			  --ORION stuff starts here --*/
+			
+			#ORIONHeading{
+				background-color: #597D35;
+				position: center-left;
+				text-align: center;
+				border: 3px solid black;
+				padding: 20px;
+				width: 600px;
+				height: 85px;
+				margin-left: auto;
+				margin-right: auto;	
+			}
+			#ORIONFirstArticle{
+				background-color:#466D1E ;
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				padding:10px;
+				padding-bottom:2.5px;
+				display:flex;
+				border-style:solid solid none solid;
+
+			}
+			#ORIONFirstp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				letter-spacing: 2px;
+			}
+			#ORIONSecondArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			}
+			#ORIONSecondp{
+				font-size:18px;
+				letter-spacing:2px;
+			}
+			#ORIONThirdArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:30px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid solid solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			#ORIONSecondImg{
+				width:300px;
+			}
+			#ORIONThirdp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				margin-top:0px;
+				letter-spacing:2px;
+			}
+			/* ORION stuff ends here */
+			/* WORSHIP stuff starts here */
+			#WORSHIPHeading{
+				background-color: #597D35;
+				position: center-left;
+				text-align: center;
+				border: 3px solid black;
+				padding: 20px;
+				width: 700px;
+				height: 85px;
+				margin-left: auto;
+				margin-right: auto;	
+			}
+			#WORSHIPFirstArticle{
+				background-color:#466D1E ;
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				padding:10px;
+				padding-bottom:2.5px;
+				display:flex;
+				border-style:solid solid none solid;
+
+			}
+			#WORSHIPFirstp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				letter-spacing: 2px;
+			}
+			#WORSHIPSecondArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			}
+			#WORSHIPSecondp{
+				font-size:18px;
+				letter-spacing:2px;
+			}
+			#WORSHIPThirdArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:auto;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			#WORSHIPSecondImg{
+				width:350px;
+			}
+			#WORSHIPThirdp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				margin-top:0px;
+				letter-spacing:2px;
+			}
+			#WORSHIPFourthArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:30px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid solid solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			#WORSHIPThirdImg{
+				width:350px;
+			}
+			#WORSHIPFourthp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				margin-top:0px;
+				letter-spacing:2px;
+			}
+		/* WORSHIP Stuff Ends here
+			RESIDENCY Stuff starts here */
+			
+			#RESIDENCYHeading{
+				background-color: #597D35;
+				position: center-left;
+				text-align: center;
+				border: 3px solid black;
+				padding: 20px;
+				width: 700px;
+				height: 85px;
+				margin-left: auto;
+				margin-right: auto;	
+			}
+			#RESIDENCYFirstArticle{
+				background-color:#466D1E ;
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				padding:10px;
+				padding-bottom:2.5px;
+				display:flex;
+				border-style:solid solid none solid;
+
+			}
+			#RESIDENCYFirstp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				letter-spacing: 2px;
+			}
+			#RESIDENCYSecondArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			}
+			#RESIDENCYSecondp{
+				font-size:18px;
+				letter-spacing:2px;
+			}
+			#RESIDENCYThirdArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:auto;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid solid solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			#RESIDENCYSecondImg{
+				width:350px;
+			}
+			#RESIDENCYThirdp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				margin-top:0px;
+				letter-spacing:2px;
+			}
+			#RESIDENCYFourthArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:30px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid solid solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			/* RESIDENCY stuff ends here 
+			   MR stuff starts here */
+			   
+			#MRHeading{
+				background-color: #597D35;
+				position: center-left;
+				text-align: center;
+				border: 3px solid black;
+				padding: 20px;
+				width: 700px;
+				height: 85px;
+				margin-left: auto;
+				margin-right: auto;	
+			}
+			#MRFirstArticle{
+				background-color:#466D1E ;
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				padding:10px;
+				padding-bottom:2.5px;
+				display:flex;
+				border-style:solid solid none solid;
+
+			}
+			#MRFirstp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				letter-spacing: 2px;
+			}
+			#MRSecondArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			}
+			#MRSecondp{
+				font-size:18px;
+				letter-spacing:2px;
+			}
+			#MRThirdArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:auto;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			#MRSecondImg{
+				width:350px;
+			}
+			#MRThirdp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				margin-top:0px;
+				letter-spacing:2px;
+			}
+			#MRFourthArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:auto;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid none solid;
+				padding:10px;
+				display:flex;
+				background-color:#466D1E ;
+			}
+			#MRFourthp{
+				width:700px;
+				padding-left:25px;
+				padding-right:25px;
+				font-size:18px;
+				margin-top:0px;
+				letter-spacing:2px;
+			}
+			#MRFifthArticle{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				border:3px solid black;
+				border-style:none solid solid solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			}
+			#MRFifthp{
+				font-size:18px;
+				letter-spacing:2px;
+			}
+			/*MR stuff ends here
+			 SOURCE Stuff starts here */
+			 #SOURCEFavoriteYTbers{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				height:700px;
+				border:3px solid black;
+				border-style:solid solid none solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			 }
+			 
+			 #FavoritesYT{
+				padding:25px;
+				background-color:red;
+				width:600px;
+				font-size:30px;
+				margin-left:60px;
+
+			 }
+				#FavoritesYT:link{
+					text-decoration:none;
+				}
+				#FavoritesYT:visited{
+					text-decoration:none;
+				}
+				#FavoritesYT:hover{
+					background-color:white;);
+				}
+			.ytsprite{
+				background:url('icon.png') no-repeat -9px -63px;
+				width: 46px;
+				height: 46px;
+			}	
+			#twitterheader{
+				margin-top:50px;
+			}
+			#FavoritesTWT{
+				padding:25px;
+				background-color:black;
+				width:600px;
+				font-size:30px;
+				margin-left:60px;
+				color:blue;
+			
+			 }
+				#FavoritesTWT:link{
+					text-decoration:none;
+				}
+				#FavoritesTWT:visited{
+					text-decoration:none;
+				}
+				#FavoritesTWT:hover{
+					color:white;
+				}
+			.twtsprite {
+				background: url('icon.png') no-repeat -229px -9px;
+				width: 46px;
+				height: 46px;
+			}	
+			#SOURCEFavoriteMusic{
+				margin-left:425px;
+				margin-right:auto;
+				margin-top:auto;
+				margin-bottom:0px;
+				width:1000px;
+				height:700px;
+				border:3px solid black;
+				border-style:none solid solid solid;
+				padding-left:25px;
+				padding-right:25px;
+				padding-top:2.5px;
+				padding-bottom:5px;
+				background-color:#466D1E ;
+			}
+			#FavoritesMusic{
+				padding:25px;
+				background-color:white;
+				width:600px;
+				font-size:30px;
+				margin-left:60px;
+			}
+				#FavoritesMusic:link{
+					text-decoration:none;
+				}
+				#FavoritesMusic:visited{
+					text-decoration:none;
+				}
+				#FavoritesMusic:hover{
+					transform:scale(1.1,1.1);
+				}
+			#twitterheader{
+				margin-top:50px;
+			}
+			.TextAfterAudios{
+				padding:20px;
+			}
+			
